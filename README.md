@@ -134,13 +134,13 @@ npm run dev          # Runs on http://localhost:5173
 
 ## 🧪 API Endpoints (Backend)
 
-| Method | Endpoint                        | Description                   |
-|--------|---------------------------------|-------------------------------|
-| GET    | `/api/get-all-announcements`    | Fetch all announcements       |
-| DELETE | `/api/get-announcement/:id`     | Delete announcement by ID     |
-| POST   | `/api/create-announcement`      | Create a new announcement     |
-| PUT    | `/api/update-announcement/:id`  | Update announcement by ID     |
-| DELETE | `/api/delete-announcements/:id` | Delete announcement by ID     |
+| Method | Endpoint                        | Description                         |
+|--------|---------------------------------|-------------------------------------|
+| GET    | `/api/get-all-announcements`    | Fetch all announcements             |
+| DELETE | `/api/get-announcement/:id`     | Fetch single announcement by ID     |
+| POST   | `/api/create-announcement`      | Create a new announcement           |
+| PUT    | `/api/update-announcement/:id`  | Update announcement by ID           |
+| DELETE | `/api/delete-announcements/:id` | Delete announcement by ID           |
 
 > All endpoints are in `backend/routes/company_announcements_route.js`  
 > Logic is handled in `controllers/company_announcement.js`
